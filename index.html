@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html DOM Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body  >
+    <!--active element check area start -->
+    <div class="activeElement" onclick="clickEvent()"> 
+        <h1>Hello</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas nobis deleniti minima nulla,
+             architecto ipsa molestias! Inventore velit delectus suscipit
+             repellendus ratione adipisci aliquid, fugiat officiis commodi expedita. Tempore, recusandae.
+        </p>
+             <a href="#">This is a link</a>
+             <button>Click Here</button>
+    </div>
+    <!--active element check area end -->
+<!--Focus and Blur Element area start-->
+<div class="focus-blurElement">
+    <h2  id="focusH2">This is focus element</h2>
+    <input  type="text" value="Focus here" id="text">
+    <button  type="button"onclick="getFocus()">Get Focus</button>
+    <button type="button" onclick="blur()">Blur</button>
+</div>
+<!--Focus and Blur Element area end-->
+<!--Mouse hovar and eventListener area start-->
+<h1 id="mouseOver">Mouse over and mouse out</h1>
+<!--Mouse hovar and eventListener area end-->
+<!--AdaptNode method area start-->
+<div class="adaptNode-ifrem">
+    <h1 class="adaptH1">The adaptNode method</h1>
+    <iframe id="adapNode" src="/default.asp"></iframe>
+    <button onclick="adaptNode()">try for AdaptNode</button>
+</div>
+<!--AdaptNode method area end-->
+<!--baseUrl body check area start-->
+<div class="baseUrl">
+    <h1>Check baseUrl element</h1>
+    <a  href="#">This is a link</a>
+</div>
+<!--baseUrl body check area end-->
+<!--change text area start-->
+<div id="changHtml">
+hello
+</div>
+<!--change text area end-->
+<button onclick="appEnd()">Append</button>
+</body>
+</html>

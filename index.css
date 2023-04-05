@@ -1,0 +1,14 @@
+.focus-blurElement{
+    padding: 10px;
+}
+/*input:focus{
+    background-color: rgb(134, 134, 180);
+}*/
+#adapNode{
+    height: 300px;
+    width: 500px;
+}
+#changHtml{
+    padding: 10px;
+    background-color: #634848;
+}
